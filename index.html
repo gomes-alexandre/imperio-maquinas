@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Império das Máquinas - Climatização e Refrigeração</title>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<!-- ──── NAV ──── -->
+<nav id="navbar">
+  <a href="#" class="nav-logo">
+    <span>IMPÉRIO DAS MÁQUINAS</span>
+    <span>REFRIGERAÇÃO E AR CONDICIONADOS</span>
+  </a>
+  <ul class="nav-links">
+    <li><a href="#hero">Início</a></li>
+    <li><a href="#about">Sobre Nós</a></li>
+    <li><a href="#services">Serviços</a></li>
+    <li><a href="#testimonials">Clientes</a></li>
+    <li><a href="#cta">Contato</a></li>
+  </ul>
+  <a href="https://wa.me/5521966888944" target="_blank" class="btn-nav desk">
+    <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+    Falar no WhatsApp
+  </a>
+  <div class="hamburger" id="hamburger">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<div class="mobile-menu" id="mobile-menu">
+  <a href="#hero" onclick="closeMobile()">Início</a>
+  <a href="#about" onclick="closeMobile()">Sobre Nós</a>
+  <a href="#services" onclick="closeMobile()">Serviços</a>
+  <a href="#testimonials" onclick="closeMobile()">Clientes</a>
+  <a href="#cta" onclick="closeMobile()">Contato</a>
+  <a href="https://wa.me/5511913431352" target="_blank" class="btn-primary" style="justify-content:center;margin-top:.5rem;">💬 WhatsApp</a>
+</div>
+
+<!-- ──── HERO ──── -->
+<section id="hero">
+  <div class="hero-glow"></div>
+  <div class="hero-glow2"></div>
+
+  <div class="hero-content">
+    <span class="hero-tag reveal">📍 Soluções de Climatização na Zona Oeste do Rio</span>
+    <h1 class="hero-title reveal" style="transition-delay:.1s">
+      Soluções Completas em<br>
+      <em>Refrigeração, Climatização e Máquinas de Lavar</em>
+      do Residencial à Industrial
+    </h1>
+    <p class="hero-desc reveal" style="transition-delay:.2s">Diagnóstico preciso, execução limpa e atendimento organizado para quem quer resolver o problema sem retrabalho.</p>
+    <div class="hero-actions reveal" style="transition-delay:.3s">
+      <a href="https://wa.me/5511913431352" target="_blank" class="btn-primary">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        Conversar no WhatsApp
+      </a>
+      <a href="#services" class="btn-ghost">Ver Serviços →</a>
+    </div>
+    <div class="hero-badges reveal" style="transition-delay:.4s">
+      <span class="hero-badge"><span>✓</span> Profissional Especializado</span>
+      <span class="hero-badge"><span>✓</span> Atendimento Premium</span>
+      <span class="hero-badge"><span>✓</span> Sem Retrabalho</span>
+    </div>
+  </div>
+
+  <div class="hero-visual reveal-right" style="transition-delay:.2s">
+    <div class="hero-img-frame">
+      <img src="https://images.unsplash.com/photo-1621905252507-b35492cc74b4?w=800&q=80" alt="Sistema de ar condicionado industrial">
+    </div>
+    <div class="hero-float-card">
+      <span class="icon">🏆</span>
+      <div>
+        <strong>+7 Anos no Mercado</strong>
+        <small>Experiência comprovada</small>
+      </div>
+    </div>
+    <div class="hero-float-badge">Profissionais<br>Especializados &<br>Premium</div>
+  </div>
+</section>
+
+<!-- ──── TICKER ──── -->
+<div class="ticker-bar">
+  <div class="ticker-inner">
+    <span class="ticker-item"><span class="ticker-dot"></span> CLIMATIZAÇÃO RESIDENCIAL</span>
+    <span class="ticker-item"><span class="ticker-dot"></span> EMPRESAS E CONDOMÍNIOS</span>
+    <span class="ticker-item"><span class="ticker-dot"></span> PROJETOS VRF / MULTI SPLIT</span>
+    <span class="ticker-item"><span class="ticker-dot"></span> MANUTENÇÃO PREVENTIVA</span>
+    <span class="ticker-item"><span class="ticker-dot"></span> INSTALAÇÃO PROFISSIONAL</span>
+    <span class="ticker-item"><span class="ticker-dot"></span> CLIMATIZAÇÃO RESIDENCIAL</span>
+    <span class="ticker-item"><span class="ticker-dot"></span> EMPRESAS E CONDOMÍNIOS</span>
+    <span class="ticker-item"><span class="ticker-dot"></span> PROJETOS VRF / MULTI SPLIT</span>
+    <span class="ticker-item"><span class="ticker-dot"></span> MANUTENÇÃO PREVENTIVA</span>
+    <span class="ticker-item"><span class="ticker-dot"></span> INSTALAÇÃO PROFISSIONAL</span>
+  </div>
+</div>
+
+<!-- ──── SERVICES ──── -->
+<section id="services">
+  <div class="services-header">
+    <div>
+      <span class="section-label reveal">Nossos Serviços</span>
+      <h2 class="section-title reveal" style="transition-delay:.1s">Como podemos<br><em>te ajudar?</em></h2>
+    </div>
+    <a href="https://wa.me/5521966888944" target="_blank" class="btn-primary reveal" style="transition-delay:.15s">Ver todos os serviços →</a>
+  </div>
+
+  <div class="services-grid">
+    <a href="https://wa.me/5521966888944?text=Olá! Gostaria de mais informações sobre serviços residenciais." target="_blank" class="service-card reveal" style="transition-delay:.1s">
+      <img src="assets/ar.png" alt="Residencial" class="service-img">
+      <div class="service-body">
+        <h3>Residencial</h3>
+        <p>Manutenção, limpeza e instalação de ar condicionado para sua casa com eficiência e cuidado.</p>
+        <span class="service-link">Entrar em Contato <span class="service-arrow">→</span></span>
+      </div>
+    </a>
+
+    <a href="https://wa.me/5521966888944?text=Olá! Gostaria de mais informações sobre serviços para empresas e condomínios." target="_blank" class="service-card reveal" style="transition-delay:.2s">
+      <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=600&q=80" alt="Empresas e Condomínios" class="service-img">
+      <div class="service-body">
+        <h3>Empresas e Condomínios</h3>
+        <p>Redução de custos e manutenção programada para ambientes corporativos e coletivos.</p>
+        <span class="service-link">Entrar em Contato <span class="service-arrow">→</span></span>
+      </div>
+    </a>
+
+    <a href="https://wa.me/5521966888944?text=Olá! Gostaria de mais informações sobre Projetos VRF / Multi Split." target="_blank" class="service-card reveal" style="transition-delay:.3s">
+      <img src="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=600&q=80" alt="Projetos VRF / Multi Split" class="service-img">
+      <div class="service-body">
+        <h3>Projetos VRF / Multi Split</h3>
+        <p>Climatização de alta performance para grandes projetos industriais e de engenharia.</p>
+        <span class="service-link">Entrar em Contato <span class="service-arrow">→</span></span>
+      </div>
+    </a>
+  </div>
+</section>
+
+<!-- ──── STATS ──── -->
+<section id="stats">
+  <div class="stats-grid">
+    <div class="stat-item reveal">
+      <span class="stat-number" data-target="10000" data-prefix="+">0</span>
+      <div class="stat-label">Clientes Atendidos</div>
+    </div>
+    <div class="stat-item reveal" style="transition-delay:.1s">
+      <span class="stat-number" data-target="7" data-prefix="+">0</span>
+      <div class="stat-label">Anos de Experiência</div>
+    </div>
+    <div class="stat-item reveal" style="transition-delay:.2s">
+      <span class="stat-number" data-target="93" data-suffix="%">0</span>
+      <div class="stat-label">Retorno de Clientes</div>
+    </div>
+    <div class="stat-item reveal" style="transition-delay:.3s">
+      <span class="stat-number" data-target="100" data-suffix="%">0</span>
+      <div class="stat-label">Produtos de Procedência</div>
+    </div>
+  </div>
+</section>
+
+<!-- ──── ABOUT ──── -->
+<section id="about">
+  <div class="about-grid">
+    <div class="about-img-wrap reveal-left">
+      <img src="https://images.unsplash.com/photo-1581092921461-7031e3d32079?w=700&q=80" alt="Equipe ANOVA" class="about-img">
+      <div class="about-accent">
+        2015<small>Desde</small>
+      </div>
+    </div>
+
+    <div class="about-text">
+      <span class="section-label reveal">Sobre Nós</span>
+      <h2 class="section-title reveal" style="transition-delay:.1s">Por que escolher<br><em>a Império das Máquinas?</em></h2>
+      <p class="reveal" style="transition-delay:.2s">Desde 2015, nosso foco é resolver qualquer problema no seu ar condicionado residencial, empresarial ou industrial com critério técnico, organização e respeito ao ambiente, seja em casa, no escritório ou em uma obra em fase final.</p>
+
+      <div class="about-features">
+        <div class="feature-pill reveal" style="transition-delay:.1s"><span class="f-icon">⚡</span> Eficiência Energética</div>
+        <div class="feature-pill reveal" style="transition-delay:.15s"><span class="f-icon">💰</span> Redução de Custos</div>
+        <div class="feature-pill reveal" style="transition-delay:.2s"><span class="f-icon">🚀</span> Atendimento Rápido</div>
+        <div class="feature-pill reveal" style="transition-delay:.25s"><span class="f-icon">🔧</span> Soluções Completas</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ──── TESTIMONIALS ──── -->
+<section id="testimonials">
+  <div class="testimonials-header">
+    <span class="section-label reveal">5 Estrelas no Google</span>
+    <h2 class="section-title reveal" style="transition-delay:.1s">O que os clientes<br><em>falam de nós?</em></h2>
+    <div class="stars reveal" style="transition-delay:.2s; margin-top:1rem;">★★★★★ 5.0 · Google Reviews</div>
+  </div>
+
+  <div class="reviews-grid">
+    <div class="review-card reveal" style="transition-delay:.05s">
+      <div class="review-stars">★★★★★</div>
+      <p class="review-text">Nós da Realize Consultoria Imobiliária, agradecemos os serviços prestados, parabéns por tamanha dedicação e profissionalismo.</p>
+      <div class="review-author">
+        <div class="review-avatar">J</div>
+        <div>
+          <div class="review-name">Jorge Luís Alves</div>
+          <div class="review-via"><svg width="10" height="10" viewBox="0 0 24 24" fill="currentColor" style="color:#4285F4"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg> Google</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="review-card reveal" style="transition-delay:.1s">
+      <div class="review-stars">★★★★★</div>
+      <p class="review-text">Trabalho de qualidade, confiança e agilidade profissional de experiência. Equipe pontual e muito bem preparada.</p>
+      <div class="review-author">
+        <div class="review-avatar">I</div>
+        <div>
+          <div class="review-name">Igor Henrique Caprani</div>
+          <div class="review-via"><svg width="10" height="10" viewBox="0 0 24 24" fill="currentColor" style="color:#4285F4"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg> Google</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="review-card reveal" style="transition-delay:.15s">
+      <div class="review-stars">★★★★★</div>
+      <p class="review-text">Serviço de qualidade. A equipe está de parabéns, atendimento incrível, pontuais, organizados e com respeito ao ambiente.</p>
+      <div class="review-author">
+        <div class="review-avatar">M</div>
+        <div>
+          <div class="review-name">Mabele Ferrari</div>
+          <div class="review-via"><svg width="10" height="10" viewBox="0 0 24 24" fill="currentColor" style="color:#4285F4"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg> Google</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="review-card reveal" style="transition-delay:.2s">
+      <div class="review-stars">★★★★★</div>
+      <p class="review-text">Serviço de excelente qualidade. Ótimo, educadíssimo. Moro em Limeira mas a limpeza deixou o aparelho como novo.</p>
+      <div class="review-author">
+        <div class="review-avatar">M</div>
+        <div>
+          <div class="review-name">Maria Jose Ferreira Bortolo</div>
+          <div class="review-via"><svg width="10" height="10" viewBox="0 0 24 24" fill="currentColor" style="color:#4285F4"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg> Google</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ──── PARTNERS ──── -->
+<section id="partners">
+  <div class="partners-header">
+    <span class="section-label reveal">Marcas e Parceiros</span>
+    <h2 class="section-title reveal" style="transition-delay:.1s">Trabalhamos com os<br><em>melhores do mercado</em></h2>
+    <p class="reveal" style="transition-delay:.2s">Para levar qualidade de ponta para sua casa ou empresa, trabalhamos apenas com marcas de comprovada excelência.</p>
+  </div>
+
+  <div class="partners-grid reveal" style="transition-delay:.1s">
+    <div class="partner-item"><span class="partner-logo">BRASTEMP</span></div>
+    <div class="partner-item"><span class="partner-logo">ELECTROLUX</span></div>
+    <div class="partner-item"><span class="partner-logo">CONSUL</span></div>
+    <div class="partner-item"><span class="partner-logo">LG</span></div>
+    <div class="partner-item"><span class="partner-logo">SAMSUNG</span></div>
+    <!--<div class="partner-item"><span class="partner-logo">MIDEA</span></div> -->
+  </div>
+</section>
+
+<!-- ──── CTA ──── -->
+<section id="cta">
+  <div class="cta-box reveal">
+    <span class="section-label" style="justify-content:center;display:block;text-align:center">Fale Conosco</span>
+    <h2 class="section-title">Pronto para <em>resolver</em><br>sua climatização?</h2>
+    <p>Entre em contato agora e receba um atendimento personalizado com diagnóstico rápido e sem compromisso.</p>
+    <div class="cta-actions">
+      <a href="https://wa.me/5521966888944" target="_blank" class="btn-primary" style="font-size:1rem;padding:.9rem 2.2rem">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        Conversar no WhatsApp
+      </a>
+      <a href="tel:+552196688-8944" class="btn-ghost" style="font-size:1rem;padding:.9rem 2.2rem">📞 Ligar Agora</a>
+    </div>
+    <p class="cta-note">📍 Matriz: Rio de Janeiro · Filial: Campo Grande</p>
+  </div>
+</section>
+
+<!-- ──── FOOTER ──── -->
+<footer>
+  <div class="footer-grid">
+    <div class="footer-logo-wrap">
+      <span class="footer-logo">IMPÉRIO DAS MÁQUINAS</span>
+      <span class="footer-logo-sub">REFRIGERAÇÃO E AR CONDICIONADOS</span>
+      <p class="footer-desc">Soluções completas em climatização, do residencial à engenharia de grandes projetos. Atendimento profissional desde 2015.</p>
+    </div>
+
+    <div class="footer-col">
+      <h4>Menu</h4>
+      <ul>
+        <li><a href="#hero">Início</a></li>
+        <li><a href="#about">Sobre Nós</a></li>
+        <li><a href="#services">Serviços</a></li>
+        <li><a href="#testimonials">Clientes</a></li>
+        <li><a href="#cta">Contato</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>Contato Matriz – Rio de Janeiro</h4>
+      <div class="contact-item"><span class="ci">📞</span> (21) 96688-8944</div>
+      <div class="contact-item"><span class="ci">💬</span> (21) 96688-8944</div>
+      <br>
+      <h4>Contato Filial – Campo Grande</h4>
+      <div class="contact-item"><span class="ci">📞</span> (21) 96688-8944</div>
+      <div class="contact-item"><span class="ci">💬</span> (19) 96688-8944</div>
+    </div>
+
+    <div class="footer-col">
+      <h4>Endereço Matriz – Rio de Janeiro</h4>
+      <div class="contact-item"><span class="ci">📍</span> Rua Frei Timótheo, 185 – Campo Grande, Rio de Janeiro – RJ</div>
+      <br>
+      <h4>Endereço Filial – Campo Grande</h4>
+      <div class="contact-item"><span class="ci">📍</span> Rua Frei Timótheo, 185 – Campo Grande, Rio de Janeiro – RJ</div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>Direitos Reservados © 2026 <strong>Império das Máquinas Refrigeração e Ar Condicionados</strong></p>
+    <p>Desenvolvido por <a href="#">Alexandre Gomes</a></p>
+  </div>
+</footer>
+
+<!-- ──── WHATSAPP FLOAT ──── -->
+<a href="https://wa.me/5521966888944" target="_blank" class="wa-float" title="Conversar no WhatsApp">
+  <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+</a>
+
+<script src="script.js"></script>
+</body>
+</html>
